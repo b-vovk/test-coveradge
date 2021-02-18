@@ -30,6 +30,14 @@ describe('Pagination Helper', () => {
     );
   });
 
+  it('should validate page idex of elements on the first page', () => {
+    const pageIndex = helper.pageIndex(1);
+
+    expect(pageIndex).to.eql(
+      0,
+    );
+  });
+
   it('should validate page idex of a specific element', () => {
     const pageIndex = helper.pageIndex(4);
 
@@ -47,7 +55,7 @@ describe('Pagination Helper', () => {
   });
 
   it('should validate error handing of a page idex with an index of an element that is out of scope', () => {
-    const pageIndex = helper.pageIndex(-10);
+    const pageIndex = helper.pageIndex(20);
 
     expect(pageIndex).to.eql(
       -1,
