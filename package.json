@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node main.js",
-    "test": "nyc mocha ./helpers/*.test.js"
+    "test": "nyc --reporter=html --reporter=text mocha ./helpers/*.test.js"
   },
   "repository": {
     "type": "git",
