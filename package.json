@@ -1,22 +1,23 @@
 {
-  "name": "inrhythm",
+  "name": "test-coverage",
   "version": "1.0.0",
   "description": "Test project",
   "main": "index.js",
   "scripts": {
     "dev": "node main.js",
-    "test": "nyc --reporter=html --reporter=text mocha ./helpers/*.test.js"
+    "test": "mocha ./helpers/*.test.js"
+    "test:coverage": "nyc --reporter=html --reporter=text mocha ./helpers/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/b-vovk/inRhythm.git"
+    "url": "git+https://github.com/b-vovk/test-coverage.git"
   },
   "author": "Bogdan Vovk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/b-vovk/inRhythm/issues"
+    "url": "https://github.com/b-vovk/test-coverage/issues"
   },
-  "homepage": "https://github.com/b-vovk/inRhythm#readme",
+  "homepage": "https://github.com/b-vovk/test-coverage#readme",
   "dependencies": {
     "chai": "^4.3.0",
     "mocha": "^8.3.0"
