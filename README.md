@@ -13,6 +13,6 @@ For references: https://istanbul.js.org
 
 To run test use command `npm test`
 
-## Test Coveradge
+## Test coveradge
 
-To run test with coverage report `npm test:coverage`
+To run test with coverage report use command `npm test:coverage`
