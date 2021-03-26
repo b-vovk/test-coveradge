@@ -1,6 +1,8 @@
-# Test Coveradge
+# Test Coverage
 
-Test project
+An example of integration test coveradge report using istambul coveradge library 
+
+For references: https://istanbul.js.org
 
 ## Configuration
 
