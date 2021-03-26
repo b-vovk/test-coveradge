@@ -10,3 +10,7 @@ Test project
 ## Running tests
 
 To run test use command `npm test`
+
+## Test Coveradge
+
+To run test with coverage report `npm test:coverage`
